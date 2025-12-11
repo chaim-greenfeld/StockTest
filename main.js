@@ -1,4 +1,3 @@
-import { stockMarket } from "./data/dataStock.js";
 import {searchStock, filterStocksByPrice, OperateOnStock} from "./utils/stockFunc.js"
 import input from "analiza-sync";
 
