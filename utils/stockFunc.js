@@ -21,11 +21,11 @@ export function searchStock(identifier) {
 
 export function filterStocksByPrice(givenPrice, above){
     if (typeof(givenPrice) === "number"){
-    if (above === true){
+    if (above == "true"){
         let a = stockMarket.stocks.filter((stock) => stock.currentPrice >= givenPrice)
         return a
     }
-    else if (above === false){
+    else if (above == "false"){
         let b = stockMarket.stocks.filter((stock) => stock.currentPrice <= givenPrice)
         return b
     }

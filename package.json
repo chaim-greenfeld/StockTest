@@ -1,0 +1,24 @@
+{
+  "name": "stocktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaim-greenfeld/StockTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chaim-greenfeld/StockTest/issues"
+  },
+  "homepage": "https://github.com/chaim-greenfeld/StockTest#readme",
+  "dependencies": {
+    "analiza-sync": "^1.0.1"
+  }
+}
